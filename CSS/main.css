@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Permanent+Marker&display=swap');
+
+/* FONTES */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Imagens/Fundo_Login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    main {
+        border: solid px white;
+        border-radius: 15px;
+        background-color: white;
+        color: black;
+        margin: auto;
+        padding: 30vh;
+        max-width: 900px;
+        height: 100vh;
+        background-image: url(../Imagens/—Slidesdocs—a\ horrível\ viscosidade\ do\ fundo.png.jpg);
+        background-repeat: no-repeat;
+        border-image: url(../Imagens/—Slidesdocs—a\ horrível\ viscosidade\ do\ fundo.png.jpg);
+        font-family: "Creepster";
+    }
+}
