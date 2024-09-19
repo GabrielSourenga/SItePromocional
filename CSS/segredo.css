@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Permanent+Marker&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/* FONTES */
+
+/* GERAL */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -10,14 +16,28 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: red;
     border: 3px solid white;
     display: flex;
     width: 105%;
 }
 
+.cabeçalho {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: "Creepster";
+}
+
+.cabeçalho:hover {
+    text-decoration: underline;
+}
+
+/* PRODUTO */
+
 img {
-    height: 100px;
+    height: 1   00px;
 }
 
 .gredo {
@@ -60,21 +80,7 @@ p {
     margin-bottom: 80px;
 }
 
-.cabesalho {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 40px;
-    font-family: "Creepster";
-}
 
-.cabesalho:hover {
-    text-decoration: underline;
-}
-
-.descriçao {
-    display: flex;
-}
 
 .principal {
     display: flex;
@@ -89,6 +95,8 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+/* PROPAGANDA DOS OUTROS PRODUTOS */
 
 .propaganda1 {
     display: flex;
@@ -118,4 +126,22 @@ p {
 .aaaaaa {
     display: inline-block;
     margin-left: 1000px;
+}
+
+/* Descrição do Livro */
+
+.membro {
+    margin: 60px 20px 0px 10px;
+    font-family:"Shadows Into Light" ;
+    color: red;
+    font-size: 20px;
+}
+
+.descriçao {
+    display: flex;
+}
+
+.pagina {
+    height: 300px;
+    margin: 40px 0px 0px 30px;
 }

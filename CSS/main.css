@@ -2,6 +2,8 @@
 
 /* FONTES */
 
+/* CABEÇALHO */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -19,7 +21,7 @@ header {
     background-color: red;
 }
 
-.cabesalho {
+.cabeçalho {
     color: white;
     text-decoration: none;
     margin-left: 20px;
@@ -27,12 +29,14 @@ header {
     font-family: "Creepster";
 }
 
-.cabesalho:hover {
+.cabeçalho:hover {
     text-decoration: underline;
 }
 
+/* VENDO LIVROS */
+
 .livrinhos {
-    width: 10vw;
+    width: 8vw;
 }
 
 .l1 {

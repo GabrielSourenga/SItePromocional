@@ -2,6 +2,8 @@
 
 /* FONTES */
 
+/* GERAL */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -34,4 +36,22 @@ input {
     width:  20vw;
     font-family: "Creepster";
     margin: 20px;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: red;
+}
+
+.cabeçalho {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: "Creepster";
+}
+
+.cabeçalho:hover {
+    text-decoration: underline;
 }

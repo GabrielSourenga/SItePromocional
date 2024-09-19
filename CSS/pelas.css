@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Permanent+Marker&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 /* FONTES */
+
+/* GERAL */
 
 * {
     margin: 0px;
@@ -14,25 +16,33 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: red;
     border: 3px solid white;
     display: flex;
     width: 105%;
 }
 
+.cabeçalho {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: "Creepster";
+}
+
+.cabeçalho:hover {
+    text-decoration: underline;
+}
+
+/* PRODUTO */
 
 img {
-    height: 100px;
+    height: 400px;
 }
 
-.pelas {
+.gredo {
     height: 450px;
 }
-
-main {
-    display: flex;
-}
-
 
 h2 {
     margin: 20px 0px 0px 30px;
@@ -45,14 +55,6 @@ h2 {
 p {
     margin: 10px 0px 0px 30px;
     max-width: 500px;
-}
-
-.começo {
-    margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-weight: 800;
-    font-size: 1.2rem ;
 }
 
 .butao {
@@ -79,32 +81,6 @@ p {
 }
 
 
-.cabesalho {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 40px;
-    font-family: "Creepster";
-}
-
-.cabesalho:hover {
-    text-decoration: underline;
-}
-
-.descriçao {
-    display: flex;
-}
-
-.pagina {
-    height: 200px;
-    margin: 40px 0px 0px 30px;
-}
-
-.membro {
-    margin: 60px 20px 0px 10px;
-    font-family:"Shadows Into Light" ;
-    color: red;
-}
 
 .principal {
     display: flex;
@@ -119,6 +95,8 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+/* PROPAGANDA DOS OUTROS PRODUTOS */
 
 .propaganda1 {
     display: flex;
@@ -142,9 +120,28 @@ p {
     font-family: "Creepster";
     color: white;
     max-width: 100px;
+    text-decoration: none;
 }
 
 .aaaaaa {
     display: inline-block;
     margin-left: 1000px;
+}
+
+/* Descrição do Livro */
+
+.membro {
+    margin: 60px 20px 0px 10px;
+    font-family:"Shadows Into Light" ;
+    color: red;
+    font-size: 20px;
+}
+
+.descriçao {
+    display: flex;
+}
+
+.pagina {
+    height: 200px;
+    margin: 40px 0px 0px 30px;
 }
