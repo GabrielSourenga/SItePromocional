@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Permanent+Marker&display=swap');
+
+/* FONTES */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -10,7 +14,8 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: black;
+    border: 3px solid white;
     display: flex;
     width: 105%;
 }
@@ -33,7 +38,7 @@ h2 {
     margin: 20px 0px 0px 30px;
     display: block;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Creepster";
     font-size: 2rem;
 }
 
@@ -57,21 +62,33 @@ p {
     padding: 30px;
     color: white;
     margin: 20px;
+    font-family: "Creepster"; 
+    text-decoration: none;
+}
+
+.butao:hover {
+    text-decoration: underline;
 }
 
 .preço {
+    font-family: "Creepster";
     font-size: 70px;
     color: white;
     margin: 20px;
     margin-bottom: 80px;
 }
 
+
 .cabesalho {
-    color: black;
-    border: solid 5px black;
-    margin: 30px;
-    border-radius: 10px;
-    padding: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: "Creepster";
+}
+
+.cabesalho:hover {
+    text-decoration: underline;
 }
 
 .descriçao {
@@ -122,7 +139,7 @@ p {
 }
 
 .legenda {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Creepster";
     color: white;
     max-width: 100px;
 }

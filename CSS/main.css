@@ -12,21 +12,70 @@ body {
     background-image: url(../Imagens/Fundo_Login.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+}
+
+header {
+    background-color: red;
+}
+
+.cabesalho {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: "Creepster";
+}
+
+.cabesalho:hover {
+    text-decoration: underline;
+}
+
+.livrinhos {
+    width: 10vw;
+}
+
+.l1 {
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.l2 {
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.l3 {
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
 }
 
 main {
-    main {
-        border: solid px white;
-        border-radius: 15px;
-        background-color: white;
-        color: black;
-        margin: auto;
-        padding: 30vh;
-        max-width: 900px;
-        height: 100vh;
-        background-image: url(../Imagens/—Slidesdocs—a\ horrível\ viscosidade\ do\ fundo.png.jpg);
-        background-repeat: no-repeat;
-        border-image: url(../Imagens/—Slidesdocs—a\ horrível\ viscosidade\ do\ fundo.png.jpg);
-        font-family: "Creepster";
-    }
+    color: black;
+    margin: 20px 50px 50px 500px ;
+    padding: 20px 50px 20px 50px;
+    max-width: 900px;
+    font-family: "Creepster";
+    border: solid 5px white;
+}
+
+.preço {
+    color: white;
+    font-family: "Creepster";
+    font-size: 50px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
 }
